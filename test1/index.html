@@ -1,45 +1,14 @@
-
-<!DOCTYPE html>
-<html ng-app="fafsaProtoApp">
-	<head lang="en" >
-	    <meta charset="utf-8">
-	    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-	    <title></title>
-	
-	    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-	    <link href="css/style.css" rel="stylesheet">
-	
-	    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-	    <link href="css/ionic.app.css" rel="stylesheet">
-	    -->
-	
-		<script src="js/libs/jquery-2.1.4.min.js"></script>
-	
-	    <script src="lib/ionic/js/ionic.bundle.js"></script>
-		<script src="js/libs/mask.js"></script>
-		<script src="js/libs/autoNumeric.js"></script>
-	    <!-- ionic/angularjs js -->
-	
-	    <!-- cordova script (this will be a 404 during development) -->
-	    <script src="cordova.js"></script>
-	    <script src="js/libs/angular-resource.min.js"></script> 
-	    
-	    
-	    
-	    <!-- your app's js -->
-	    <script src="js/app.js"></script>
-
-		<!-- Controllers -->
-	    <script src="js/controllers/mainCtrl.js"></script>	    
-	    
-	  
-	    
-	
-	</head>
-	<body ng-controller="mainCtrl" class="platform-android platform-cordova platform-webview">
-		<gd-header></gd-header>
-		<ion-pane>	
-			<ion-nav-view class="has-header has-footer" ng-class="'has-subheader' : subHeaderStatuses.statusCollege || subHeaderStatuses.statusInfo"></ion-nav-view>
-		</ion-pane>
-	</body>
-</html>
+<div class="list">
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">First Name</span>
+    <input type="text" placeholder="John">
+  </label>
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Last Name</span>
+    <input type="text" placeholder="Suhr">
+  </label>
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Email</span>
+    <input type="text" placeholder="john@suhr.com">
+  </label>
+</div>
